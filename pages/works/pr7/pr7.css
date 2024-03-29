@@ -1,0 +1,79 @@
+body{
+    background: url(../../../img/фон.jpg);
+    background-size: cover;
+}
+.p1{
+    text-align: center;
+}
+.p2{
+    text-indent: 30px;
+}
+.p3{
+    line-height: 200%;
+}
+.p4{
+    vertical-align:22px;
+}
+.p5{
+    word-spacing: 52px;
+}
+.p6{
+    letter-spacing: 22px ;
+}
+.p7{
+    white-space:nowrap ;
+}
+.p8{
+    tab-size: 100px;
+}
+.p9{
+    text-transform: uppercase;
+}
+.p10{
+    direction: rtl;
+}
+#a1{
+    unicode-bidi: bidi-override;
+}
+#a2{
+    text-decoration: line-through;
+}
+#a3:first-letter{
+    font-size: 2em;
+  margin-right: 2px; 
+  color: #EE9966;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+}
+#a4{
+    quotes:\00AB ;
+}
+#a5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#a6{
+    font-style: italic;
+}
+#a7{
+    font-variant: small-caps;
+}
+#a8{
+    font-weight: 600;
+}
+#a9{
+    font-size: xx-large;
+}
+#a10{
+    color: rgb(140, 255, 0);
+}
+#a11::first-line{
+    font-size: 1.2em;
+  padding: 5px 10px;
+  margin-right: 5px; 
+  margin-bottom: 2px;
+  background: #EE9966;
+  color: #FAF4F4;
+  float: left;
+  font-weight: bold;
+
+}
